@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="67px" viewBox="0 0 77 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-21.2%" y="-52.1%" width="142.5%" height="204.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="16" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.108418925 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card_info" transform="translate(-226.000000, -64.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g filter="url(#filter-1)" id="button_next">
+                <g transform="translate(230.000000, 76.000000)">
+                    <path d="M44.3799987,21.4801437 C44.3799987,21.2744798 44.2962136,21.0780363 44.1567618,20.9301274 L36.6149656,13.2279143 C36.3170632,12.9236445 35.8348082,12.9244129 35.5376657,13.2279143 C35.2397632,13.5314157 35.2397632,14.0243814 35.5376657,14.3278829 L41.779685,20.7021171 L20.7618552,20.7021171 C20.3413466,20.7021811 20,21.0503114 20,21.4801437 C20,21.9099759 20.3413466,22.2581702 20.7618552,22.2581702 L41.7789251,22.2581702 L35.5376657,28.6324045 C35.2397632,28.9359059 35.2405232,29.4288716 35.5376657,29.732373 C35.8355682,30.0358744 36.3178231,30.0358744 36.6149656,29.732373 L44.1567618,22.03016 C44.2991901,21.8845561 44.3777188,21.6842708 44.3799987,21.4801437 Z" id="arrow"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

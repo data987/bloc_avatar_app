@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="288px" viewBox="0 0 375 288" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
+    <title>header_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="46.9206073%" y1="50%" x2="48.4411096%" y2="110.700237%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#A0A0A0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" fill="url(#linearGradient-1)">
+            <path d="M-12,-12 L388,-12 L388,242.102263 C321.88651,272.424351 255.404236,287.585395 188.553177,287.585395 C121.702118,287.585395 54.851059,272.424351 -12,242.102263 L-12,-12 Z" id="header_bg"></path>
+        </g>
+    </g>
+</svg>
