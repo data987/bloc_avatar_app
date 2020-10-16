@@ -28,8 +28,7 @@ class Layout extends StatelessWidget {
               ),
               Expanded(
                   child: Container(
-                      padding: EdgeInsets.only(top: 45.0),
-                      width: SizeConfig.safeBlockHorizontal * 78,
+                      width: SizeConfig.safeBlockHorizontal * 100,
                       child: child))
             ],
           ),

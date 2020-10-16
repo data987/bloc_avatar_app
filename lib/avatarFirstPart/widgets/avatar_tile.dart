@@ -1,5 +1,5 @@
+import 'package:bloc_avatar_app/utils/size_config.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class AvatarTile extends StatelessWidget {
   const AvatarTile(
@@ -17,14 +17,16 @@ class AvatarTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Container(
+      width: SizeConfig.safeBlockHorizontal * 75,
       margin: EdgeInsets.only(bottom: 25.0),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(10.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withAlpha(50),
+            color: Colors.black.withAlpha(7),
             spreadRadius: 5,
             blurRadius: 7,
             offset: Offset(0, 2), // changes position of shadow
