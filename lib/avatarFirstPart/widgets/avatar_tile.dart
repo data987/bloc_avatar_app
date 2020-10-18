@@ -81,7 +81,12 @@ class AvatarTile extends StatelessWidget {
                 children: [
                   Text(name, style: TextStyle(fontWeight: FontWeight.bold)),
                   SizedBox(height: 10.0),
-                  Text(info, style: TextStyle(fontSize: 12))
+                  Text(
+                    info,
+                    style: TextStyle(fontSize: 12),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  )
                 ],
               ),
             ),

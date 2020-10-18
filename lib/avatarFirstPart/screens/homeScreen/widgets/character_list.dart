@@ -19,12 +19,12 @@ class CharacterList extends StatelessWidget {
                   image: 'assets/images/appa_flying.png',
                   name: 'Appa',
                   info: 'Air Acolytes Air Temple Island',
-                  onTap: () => print('Hi dani')),
+                  onTap: () => print('Go to appa details')),
               AvatarTile(
                   image: 'assets/images/zuko.png',
                   name: 'Zuko',
                   info: 'Fire Nation Fire Nation Royal Family',
-                  onTap: () => print('Hi dani'))
+                  onTap: () => print('Go to zuko details'))
             ],
           ),
         )
