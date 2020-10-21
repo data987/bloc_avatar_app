@@ -1,16 +1,15 @@
-# bloc_avatar_app
+# Bloc avatar app
 
-A new Flutter project.
+This is a [medium tutorial](https://medium.com/@data.code.trip/using-bloc-for-the-first-time-part-1-8ee4a40dc37f), explaining the basics of [Bloc](https://bloclibrary.dev/).
+
+![Avatar App Bloc](/assets/images/avatar_bloc.gif)
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repo
+2. Run `flutter pub get` for getting all the packages
+3. Launch the app running `flutter run`, you have to open a simulator first, and I recommend you to start the app from **Visual Studio Code** :rocket:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Avatar app design](/assets/images/header.jpg)
